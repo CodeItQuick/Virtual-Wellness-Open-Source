@@ -82,36 +82,39 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		
 		</b-carousel>
 		<div class="row m-4">
-			<div class="col-sm-1" ></div>
+			<div class="col-sm-2" ></div>
 			<b-card
 				title="Participant"
 				img-src="static/img/business-executives-actively-participating-MFLDQWT.jpg"
 				img-alt="Image"
 				img-top
 				tag="article"
-				class="mb-2 mt-2 col-sm-5"
+    			style="max-width: 20rem;"
+				class="mb-2 mt-4 col-sm-3"
 			>
-				<b-card-text>
+				<b-card-text >
 				Login to the virtual wellness program as a participant
 				</b-card-text>
 
 				<b-button href="#" variant="primary">Login</b-button>
 			</b-card>
+			<div class="col-sm-2" ></div>
 			<b-card
 				title="Researcher"
 				img-src="static/img/cute-caucasian-chemists-PFQDRJQ.jpg"
 				img-alt="Image"
 				img-top
 				tag="article"
-				class="mb-2 mt-2 col-sm-5"
+				style="max-width: 20rem;"
+				class="mb-2 col-sm-3"
 			>
-				<b-card-text>
+				<b-card-text >
 				Login to the virtual wellness program as a researcher.
 				</b-card-text>
 
 				<b-button href="#" variant="primary">Login</b-button>
 			</b-card>
-			<div class="col-sm-1" ></div>
+			<div class="col-sm-2" ></div>
 		</div>
 	</div>
 	<script>
